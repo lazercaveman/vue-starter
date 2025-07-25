@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+@layer base {
+  html {
+    font-family: Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@theme static {
+/* static definitions will always be added to the stylesheet */
+}
+
+/* To completely disable the default theme and use only custom values, set the global theme variable namespace to initial: */
+/* --*: initial; */
+@theme {
+}
+
+
+@layer utilities {
+}
