@@ -10,7 +10,15 @@ export default defineConfigWithVueTs(
     files: ['**/*.{ts,mts,tsx,vue}'],
   },
 
-  globalIgnores(['**/dist/**', '**/dist-ssr/**', '**/coverage/**']),
+  globalIgnores([
+    'node_modules',
+    'coverage',
+    'cypress.config.ts',
+    'dist',
+    '.storybook',
+    '.yarn',
+    '.output',
+  ]),
 
   pluginVue.configs['flat/essential'],
   vueTsConfigs.recommended,
@@ -19,5 +27,17 @@ export default defineConfigWithVueTs(
     ...pluginVitest.configs.recommended,
     files: ['src/**/__tests__/*'],
   },
+
   ...pluginOxlint.configs['flat/recommended'],
+
+  {
+    rules: {
+      '@typescript-eslint/no-unsafe-assignment': 'off',
+      '@typescript-eslint/no-unused-vars': 'error',
+      'vue/multi-word-component-names': [
+        'error',
+        { ignores: ['index','demo','default','error','[id]'] }
+      ],
+    },
+  }
 )
