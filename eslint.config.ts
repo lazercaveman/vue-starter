@@ -36,8 +36,14 @@ export default defineConfigWithVueTs(
       '@typescript-eslint/no-unused-vars': 'error',
       'vue/multi-word-component-names': [
         'error',
-        { ignores: ['index','demo','default','error','[id]'] }
+        { ignores: ['index','demo','default','error','[id]'] },
       ],
+    },
+  },
+  {
+    files: ['src/pages/**/*.vue', 'pages/**/*.vue'], // Adjust the path to your 'pages' folder if needed
+    rules: {
+      'vue/multi-word-component-names': 'off', // Turn off the rule for files in 'pages'
     },
   }
 )
