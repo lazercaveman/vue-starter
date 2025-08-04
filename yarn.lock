@@ -5634,14 +5634,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook@npm:^9.0.18":
-  version: 9.0.18
-  resolution: "storybook@npm:9.0.18"
+"storybook@npm:^9.1.0":
+  version: 9.1.0
+  resolution: "storybook@npm:9.1.0"
   dependencies:
     "@storybook/global": "npm:^5.0.0"
     "@testing-library/jest-dom": "npm:^6.6.3"
     "@testing-library/user-event": "npm:^14.6.1"
     "@vitest/expect": "npm:3.2.4"
+    "@vitest/mocker": "npm:3.2.4"
     "@vitest/spy": "npm:3.2.4"
     better-opn: "npm:^3.0.2"
     esbuild: "npm:^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0 || ^0.22.0 || ^0.23.0 || ^0.24.0 || ^0.25.0"
@@ -5656,7 +5657,7 @@ __metadata:
       optional: true
   bin:
     storybook: ./bin/index.cjs
-  checksum: 10/c22a95ae807d39e4f861cea479d4ecc6f51ce873a78a7297f9f42844820b63e281f5c6834898bc7736e25c3342785cecd45a704579f4e6977b29c6235ebe1482
+  checksum: 10/d11c54f146882086ffb70f2a9a9a16a4f8547cb3d1ccf68a6c0a614e146da7de691c1df7916e9c1bb0459b327ea8fdb5353369f83d7cfc52d955091edd97ecdd
   languageName: node
   linkType: hard
 
@@ -6454,7 +6455,7 @@ __metadata:
     npm-run-all2: "npm:^8.0.4"
     oxlint: "npm:~1.8.0"
     pinia: "npm:^3.0.3"
-    storybook: "npm:^9.0.18"
+    storybook: "npm:^9.1.0"
     tailwindcss: "npm:^4.1.11"
     typescript: "npm:~5.8.3"
     unplugin-vue-router: "npm:^0.14.0"
