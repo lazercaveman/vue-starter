@@ -1152,15 +1152,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-a11y@npm:^9.0.18":
-  version: 9.0.18
-  resolution: "@storybook/addon-a11y@npm:9.0.18"
+"@storybook/addon-a11y@npm:^9.1.0":
+  version: 9.1.0
+  resolution: "@storybook/addon-a11y@npm:9.1.0"
   dependencies:
     "@storybook/global": "npm:^5.0.0"
     axe-core: "npm:^4.2.0"
   peerDependencies:
-    storybook: ^9.0.18
-  checksum: 10/cfdbcbbcbd0a4c8715a0061c9e4f306c532eea61989823bfcef3a566baa30ef81046ccc038580f362b9a67210bc35dedaf5d2e9e935c7679f7558d1b199f628e
+    storybook: ^9.1.0
+  checksum: 10/39c147528a53fcefc5c613d5e235bc6915e8735d2703d1c6e9ddb2fa27016431c1a3a360bda24ce7a0e35c3c0fc22fcc515cb87b7239126fefa418b548d4645d
   languageName: node
   linkType: hard
 
@@ -6430,7 +6430,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vue-starter@workspace:."
   dependencies:
-    "@storybook/addon-a11y": "npm:^9.0.18"
+    "@storybook/addon-a11y": "npm:^9.1.0"
     "@storybook/addon-docs": "npm:^9.0.18"
     "@storybook/vue3-vite": "npm:^9.0.18"
     "@tailwindcss/vite": "npm:^4.1.11"
