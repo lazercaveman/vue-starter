@@ -3085,12 +3085,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-oxlint@npm:~1.8.0":
-  version: 1.8.0
-  resolution: "eslint-plugin-oxlint@npm:1.8.0"
+"eslint-plugin-oxlint@npm:~1.11.1":
+  version: 1.11.1
+  resolution: "eslint-plugin-oxlint@npm:1.11.1"
   dependencies:
     jsonc-parser: "npm:^3.3.1"
-  checksum: 10/08f403c12dda6a01e18352e8ccd06bd09fe24622e43d0a3ed5436ae6cbfc292242e1218aed5cbbff12e345f9e4067e4140e0acd0e6a2269c2258362b52533204
+  checksum: 10/23539c75f21882697ff00b4d164e1dad54c9a9c835e68798406170bdf217bbc915d6cfd635c9bb264e3503d15521e7481e2d6204ed4a81dd2025be3e2cfbaa3e
   languageName: node
   linkType: hard
 
@@ -6445,7 +6445,7 @@ __metadata:
     "@vue/test-utils": "npm:^2.4.6"
     "@vue/tsconfig": "npm:^0.7.0"
     eslint: "npm:^9.31.0"
-    eslint-plugin-oxlint: "npm:~1.8.0"
+    eslint-plugin-oxlint: "npm:~1.11.1"
     eslint-plugin-storybook: "npm:^9.0.18"
     eslint-plugin-vue: "npm:~10.3.0"
     husky: "npm:^9.1.7"
