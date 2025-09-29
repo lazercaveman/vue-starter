@@ -4373,6 +4373,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jiti@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "jiti@npm:2.6.0"
+  bin:
+    jiti: lib/jiti-cli.mjs
+  checksum: 10/060d18642a1cad09c1f1337a99e520e9b94b2db9f5a5026cdb36938392884f923fb4a571075ac0b361f0328e4b48af3f99961bb7578e5b1945ec97fb0b9057dc
+  languageName: node
+  linkType: hard
+
 "js-beautify@npm:^1.14.9":
   version: 1.15.4
   resolution: "js-beautify@npm:1.15.4"
@@ -7043,7 +7052,7 @@ __metadata:
     eslint-plugin-storybook: "npm:^9.1.6"
     eslint-plugin-vue: "npm:~10.4.0"
     husky: "npm:^9.1.7"
-    jiti: "npm:^2.5.1"
+    jiti: "npm:^2.6.0"
     jsdom: "npm:^27.0.0"
     npm-run-all2: "npm:^8.0.4"
     oxlint: "npm:~1.16.0"
