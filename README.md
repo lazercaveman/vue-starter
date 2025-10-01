@@ -83,5 +83,5 @@ Contributions are welcome! Fork the repository, create a feature branch, commit 
 ---
 
 ## License Notice
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.  
+This project is licensed under the [MIT License](LICENSE), by [Ali Soueidan](https://alisoueidan.com/) - see the [LICENSE](LICENSE) file for details.  
 *Please note that the software is provided without any warranty. The authors accept no liability for any security gaps or damage that may arise from the use of the software.*
