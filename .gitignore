@@ -1,42 +1,44 @@
+*.log
+.nuxt
+.output
+.eslintcache
+.env
+nuxt.d.ts
+.yarn/cache
+.yarn/tmp
+!.yarn/releases
+!.yarn/plugins
+
+# compiled output
+/dist
+/storybook-static
+/node_modules
+
 # Logs
 logs
 *.log
 npm-debug.log*
-package-lock.json
-.yarn/*
+pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-!.yarn/releases
-!.yarn/plugins
-pnpm-debug.log*
 lerna-debug.log*
-
-# compiled output
-/storybook-static
-.eslintcache
-
-# Tests
-/coverage
-
-# Logs
-node_modules
-dist
-dist-ssr
-*.local
 
 # OS
 .DS_Store
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Tests
+/coverage
+/.nyc_output
 
-*storybook.log
-storybook-static
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.code-workspace
+
+# IDE - VSCode
+.vercel
