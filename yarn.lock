@@ -4075,12 +4075,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jiti@npm:^2.5.1, jiti@npm:^2.6.0":
+"jiti@npm:^2.5.1":
   version: 2.6.0
   resolution: "jiti@npm:2.6.0"
   bin:
     jiti: lib/jiti-cli.mjs
   checksum: 10/060d18642a1cad09c1f1337a99e520e9b94b2db9f5a5026cdb36938392884f923fb4a571075ac0b361f0328e4b48af3f99961bb7578e5b1945ec97fb0b9057dc
+  languageName: node
+  linkType: hard
+
+"jiti@npm:^2.6.1":
+  version: 2.6.1
+  resolution: "jiti@npm:2.6.1"
+  bin:
+    jiti: lib/jiti-cli.mjs
+  checksum: 10/8cd72c5fd03a0502564c3f46c49761090f6dadead21fa191b73535724f095ad86c2fa89ee6fe4bc3515337e8d406cc8fb2d37b73fa0c99a34584bac35cd4a4de
   languageName: node
   linkType: hard
 
@@ -6540,7 +6549,7 @@ __metadata:
     eslint-plugin-storybook: "npm:^9.1.9"
     eslint-plugin-vue: "npm:~10.5.0"
     husky: "npm:^9.1.7"
-    jiti: "npm:^2.6.0"
+    jiti: "npm:^2.6.1"
     jsdom: "npm:^27.0.0"
     npm-run-all2: "npm:^8.0.4"
     oxlint: "npm:~1.19.0"
