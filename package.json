@@ -48,7 +48,7 @@
     "jsdom": "^27.0.0",
     "npm-run-all2": "^8.0.4",
     "oxlint": "~1.19.0",
-    "storybook": "^9.1.9",
+    "storybook": "^9.1.10",
     "tailwindcss": "^4.1.13",
     "typescript": "~5.9.3",
     "unplugin-vue-router": "^0.15.0",
