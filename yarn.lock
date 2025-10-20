@@ -5707,9 +5707,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook@npm:^9.1.9":
-  version: 9.1.9
-  resolution: "storybook@npm:9.1.9"
+"storybook@npm:^9.1.13":
+  version: 9.1.13
+  resolution: "storybook@npm:9.1.13"
   dependencies:
     "@storybook/global": "npm:^5.0.0"
     "@testing-library/jest-dom": "npm:^6.6.3"
@@ -5730,7 +5730,7 @@ __metadata:
       optional: true
   bin:
     storybook: ./bin/index.cjs
-  checksum: 10/6a53c5ddacd2e891da78c0d98065e2350788b05d879dc0a144562d894609e07409d5ade270699a04f922ec4e0e53ee9293d100f7f10fdbe150421b56c07569e2
+  checksum: 10/fa97a2f73c980e3c13daa22931545a4ddfec85dffac51c557387a46482fcaf348c1ea9721bd9c5104376bd36b56749e6797611d8ae8b865135f5d95d0b481349
   languageName: node
   linkType: hard
 
@@ -6545,7 +6545,7 @@ __metadata:
     npm-run-all2: "npm:^8.0.4"
     oxlint: "npm:~1.19.0"
     pinia: "npm:^3.0.3"
-    storybook: "npm:^9.1.9"
+    storybook: "npm:^9.1.13"
     tailwindcss: "npm:^4.1.13"
     typescript: "npm:~5.9.3"
     unplugin-vue-router: "npm:^0.15.0"
