@@ -1187,20 +1187,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-docs@npm:^9.1.9":
-  version: 9.1.9
-  resolution: "@storybook/addon-docs@npm:9.1.9"
+"@storybook/addon-docs@npm:^9.1.13":
+  version: 9.1.13
+  resolution: "@storybook/addon-docs@npm:9.1.13"
   dependencies:
     "@mdx-js/react": "npm:^3.0.0"
-    "@storybook/csf-plugin": "npm:9.1.9"
+    "@storybook/csf-plugin": "npm:9.1.13"
     "@storybook/icons": "npm:^1.4.0"
-    "@storybook/react-dom-shim": "npm:9.1.9"
+    "@storybook/react-dom-shim": "npm:9.1.13"
     react: "npm:^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     react-dom: "npm:^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     ts-dedent: "npm:^2.0.0"
   peerDependencies:
-    storybook: ^9.1.9
-  checksum: 10/33aabdba0730d39e00486b798c9111e8ac727723fb6093624efc033ff15dcd4d476990d8fd579f83c4edf64982ebb99235ced77918589f166320d6d295cecd38
+    storybook: ^9.1.13
+  checksum: 10/ea89f0aedf05ddf4e40b45c03bd5c9677fef45afc2794f21aee942af4abf34ba80cc32f04d5634f5f70c7fbbdc65874c30f5d6eaddcfe8e2812953061c0d9b46
   languageName: node
   linkType: hard
 
@@ -1214,6 +1214,17 @@ __metadata:
     storybook: ^9.1.9
     vite: ^5.0.0 || ^6.0.0 || ^7.0.0
   checksum: 10/579a1d3cfe83302b059e445c22f297f490075371558dc2064d89ebca85088580914b56cf51315c360bc561de81c207208ea128f699b36131a944daaec67b10e7
+  languageName: node
+  linkType: hard
+
+"@storybook/csf-plugin@npm:9.1.13":
+  version: 9.1.13
+  resolution: "@storybook/csf-plugin@npm:9.1.13"
+  dependencies:
+    unplugin: "npm:^1.3.1"
+  peerDependencies:
+    storybook: ^9.1.13
+  checksum: 10/5ce6fc05b36dde6ac975ad0bb93c8d926e8a8ca7366a47aa4680a899131b0e07f97b368d562671fbd1505c256c7cb0e21791292dcab2a2b9e057e91550dc8df4
   languageName: node
   linkType: hard
 
@@ -1245,14 +1256,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react-dom-shim@npm:9.1.9":
-  version: 9.1.9
-  resolution: "@storybook/react-dom-shim@npm:9.1.9"
+"@storybook/react-dom-shim@npm:9.1.13":
+  version: 9.1.13
+  resolution: "@storybook/react-dom-shim@npm:9.1.13"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
-    storybook: ^9.1.9
-  checksum: 10/5ee03b00e9b2760eec54585f7a4f436735ce3a1714a0fd387908a2c32ad5e812560db3c2094c8a06aa316daee1f4403aa69eaa9688ecfb9f378caa95ce16f154
+    storybook: ^9.1.13
+  checksum: 10/01243edbe9f188822b8de718936ec98460b1930d9a9bb431eb77a92f54cbd146163fd462a08bafde2f4010f2f0475313cf47d7109f6805b3f8cb13f7ce0a3bdd
   languageName: node
   linkType: hard
 
@@ -6522,7 +6533,7 @@ __metadata:
   resolution: "vue-starter@workspace:."
   dependencies:
     "@storybook/addon-a11y": "npm:^9.1.9"
-    "@storybook/addon-docs": "npm:^9.1.9"
+    "@storybook/addon-docs": "npm:^9.1.13"
     "@storybook/vue3-vite": "npm:^9.1.9"
     "@tailwindcss/vite": "npm:^4.1.13"
     "@tsconfig/node22": "npm:^22.0.2"
