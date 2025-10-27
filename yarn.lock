@@ -1814,22 +1814,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/eslint-plugin@npm:^1.3.23":
-  version: 1.3.23
-  resolution: "@vitest/eslint-plugin@npm:1.3.23"
+"@vitest/eslint-plugin@npm:^1.3.25":
+  version: 1.3.25
+  resolution: "@vitest/eslint-plugin@npm:1.3.25"
   dependencies:
     "@typescript-eslint/scope-manager": "npm:^8.46.1"
     "@typescript-eslint/utils": "npm:^8.46.1"
   peerDependencies:
-    eslint: ">= 8.57.0"
-    typescript: ">= 5.0.0"
+    eslint: ">=8.57.0"
+    typescript: ">=5.0.0"
     vitest: "*"
   peerDependenciesMeta:
     typescript:
       optional: true
     vitest:
       optional: true
-  checksum: 10/7a887acd8c68e1b5dd2d120e8e34d60b4b9380854a1f7652a745454ae5d4e4cda0d05c59b0e793486ba376b0093d6c203d1e95e31612f11e9ddaca7f9e95215a
+  checksum: 10/afd9019fc319de3a141cf3dfa8c53ef83d4d6f6c9cc7849f0b978431d42f49881849348ff49a6078c88c02947f43dd0b4bdb68ddaa6378c02e7dc9da0e0dac6e
   languageName: node
   linkType: hard
 
@@ -6576,7 +6576,7 @@ __metadata:
     "@types/node": "npm:^24.8.1"
     "@vitejs/plugin-vue": "npm:^6.0.1"
     "@vitest/coverage-v8": "npm:3.2.4"
-    "@vitest/eslint-plugin": "npm:^1.3.23"
+    "@vitest/eslint-plugin": "npm:^1.3.25"
     "@vitest/ui": "npm:^3.2.4"
     "@vue/eslint-config-typescript": "npm:^14.6.0"
     "@vue/test-utils": "npm:^2.4.6"
