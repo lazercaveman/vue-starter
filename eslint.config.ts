@@ -16,7 +16,6 @@ export default defineConfigWithVueTs(
     'cypress.config.ts',
     'dist',
     '.storybook',
-    '.yarn',
     '.output',
   ]),
 
