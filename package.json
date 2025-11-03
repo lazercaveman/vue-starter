@@ -31,15 +31,15 @@
     "@tailwindcss/vite": "^4.1.16",
     "@tsconfig/node22": "^22.0.2",
     "@types/jsdom": "^27.0.0",
-    "@types/node": "^24.9.2",
+    "@types/node": "^24.10.0",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vitest/coverage-v8": "4.0.5",
     "@vitest/eslint-plugin": "^1.4.0",
-    "@vitest/ui": "^4.0.5",
+    "@vitest/ui": "^4.0.6",
     "@vue/eslint-config-typescript": "^14.6.0",
     "@vue/test-utils": "^2.4.6",
     "@vue/tsconfig": "^0.8.1",
-    "eslint": "^9.38.0",
+    "eslint": "^9.39.0",
     "eslint-plugin-oxlint": "~1.25.0",
     "eslint-plugin-storybook": "^10.0.2",
     "eslint-plugin-vue": "~10.5.1",
@@ -54,8 +54,8 @@
     "unplugin-vue-router": "^0.16.1",
     "vite": "^7.1.12",
     "vite-plugin-vue-devtools": "^8.0.3",
-    "vitest": "^4.0.5",
-    "vue-tsc": "^3.1.2"
+    "vitest": "^4.0.6",
+    "vue-tsc": "^3.1.3"
   },
   "packageManager": "pnpm@10.20.0+sha512.cf9998222162dd85864d0a8102e7892e7ba4ceadebbf5a31f9c2fce48dfce317a9c53b9f6464d1ef9042cba2e02ae02a9f7c143a2b438cd93c91840f0192b9dd"
 }
