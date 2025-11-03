@@ -1836,6 +1836,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vitest/pretty-format@npm:4.0.6":
+  version: 4.0.6
+  resolution: "@vitest/pretty-format@npm:4.0.6"
+  dependencies:
+    tinyrainbow: "npm:^3.0.3"
+  checksum: 10/34e7c423233fefdb9c45d4873d38dde0641121e0639cd5109fea9d57d298a70b4a516284ff7a044db6373e2b39e98ed1d18f8ad55471a3d774bc96eac3de4560
+  languageName: node
+  linkType: hard
+
 "@vitest/runner@npm:4.0.5":
   version: 4.0.5
   resolution: "@vitest/runner@npm:4.0.5"
@@ -1873,11 +1882,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/ui@npm:^4.0.5":
-  version: 4.0.5
-  resolution: "@vitest/ui@npm:4.0.5"
+"@vitest/ui@npm:^4.0.6":
+  version: 4.0.6
+  resolution: "@vitest/ui@npm:4.0.6"
   dependencies:
-    "@vitest/utils": "npm:4.0.5"
+    "@vitest/utils": "npm:4.0.6"
     fflate: "npm:^0.8.2"
     flatted: "npm:^3.3.3"
     pathe: "npm:^2.0.3"
@@ -1885,8 +1894,8 @@ __metadata:
     tinyglobby: "npm:^0.2.15"
     tinyrainbow: "npm:^3.0.3"
   peerDependencies:
-    vitest: 4.0.5
-  checksum: 10/6cb7dcd1ad3bcf1c3d250930c1ed4cb7bf320561d30cdfad7ef1cdb10168e2209f3fcbf6d0f55849b79f572f8d24b7bea379b840c3eee9cfe3c35fe7a842f1bb
+    vitest: 4.0.6
+  checksum: 10/d773de790e40a94b6f9cf269bc361a5e64c7214ac8c761ad2dbca228ca04dedab47e346252f2ca23c81531e6670c5ecdcd6d7adbcf89a49622fc5a70b41cd422
   languageName: node
   linkType: hard
 
@@ -1908,6 +1917,16 @@ __metadata:
     "@vitest/pretty-format": "npm:4.0.5"
     tinyrainbow: "npm:^3.0.3"
   checksum: 10/1d2d71a94237c227928c16dabca300a05277918df58c63294771fb5a3d2f41538e21d4b75b2cc7421ff15443d1e496225c684dd32818601641be32affba09a74
+  languageName: node
+  linkType: hard
+
+"@vitest/utils@npm:4.0.6":
+  version: 4.0.6
+  resolution: "@vitest/utils@npm:4.0.6"
+  dependencies:
+    "@vitest/pretty-format": "npm:4.0.6"
+    tinyrainbow: "npm:^3.0.3"
+  checksum: 10/cb556e63e3f0f98a0eba21ec03793b44182bf343a5fdfd8ac2a70c5dfb3b14fbacf0de2aa5df0c3a14b2b4b634ce86f40077b8503e7486e79caffee2f07840e0
   languageName: node
   linkType: hard
 
@@ -6371,7 +6390,7 @@ __metadata:
     "@vitejs/plugin-vue": "npm:^6.0.1"
     "@vitest/coverage-v8": "npm:4.0.5"
     "@vitest/eslint-plugin": "npm:^1.4.0"
-    "@vitest/ui": "npm:^4.0.5"
+    "@vitest/ui": "npm:^4.0.6"
     "@vue/eslint-config-typescript": "npm:^14.6.0"
     "@vue/test-utils": "npm:^2.4.6"
     "@vue/tsconfig": "npm:^0.8.1"
