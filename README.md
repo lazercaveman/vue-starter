@@ -33,14 +33,14 @@ A lightweight, ready-to-use template for Vue 3 with Vite and TypeScript. Fully 
 git clone https://github.com/lazercaveman/vue-starter.git
 cd vue-starter
 
-# Ensure Node.js >= 18 and Yarn >= 4.x
+# Ensure Node.js >= 18 and pnpm >= 4.x
 corepack enable
 
 # Install dependencies
-yarn
+pnpm
 
 # Start development server
-yarn dev
+pnpm dev
 ```
 
 ---
@@ -48,15 +48,15 @@ yarn dev
 ## Scripts
 | Command                | Description                              |
 | ---------------------- | ---------------------------------------- |
-| `yarn dev`             | Start Vite development server            |
-| `yarn build`           | Run type checks and build for production |
-| `yarn preview`         | Preview the production build             |
-| `yarn test:unit`       | Run unit tests with Vitest               |
-| `yarn test:ui`         | Launch UI testing interface              |
-| `yarn test:coverage`   | Generate test coverage report            |
-| `yarn lint`            | Run ESLint and OXLint with auto-fix      |
-| `yarn storybook`       | Start Storybook development server       |
-| `yarn build-storybook` | Build Storybook static documentation     |
+| `pnpm dev`             | Start Vite development server            |
+| `pnpm build`           | Run type checks and build for production |
+| `pnpm preview`         | Preview the production build             |
+| `pnpm test:unit`       | Run unit tests with Vitest               |
+| `pnpm test:ui`         | Launch UI testing interface              |
+| `pnpm test:coverage`   | Generate test coverage report            |
+| `pnpm lint`            | Run ESLint and OXLint with auto-fix      |
+| `pnpm storybook`       | Start Storybook development server       |
+| `pnpm build-storybook` | Build Storybook static documentation     |
 
 ---
 
