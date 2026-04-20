@@ -53,7 +53,7 @@
     "typescript": "~5.9.3",
     "unplugin-vue-router": "^0.16.1",
     "vite": "^7.1.12",
-    "vite-plugin-vue-devtools": "^8.0.3",
+    "vite-plugin-vue-devtools": "^8.1.1",
     "vitest": "^4.0.6",
     "vue-tsc": "^3.1.3"
   },
