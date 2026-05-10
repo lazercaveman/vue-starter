@@ -13,6 +13,7 @@
   "embeddedLanguageFormatting": "auto",
   "ignorePatterns": [
     "node_modules",
+    "typed-router.d.ts",
     "coverage",
     "dist",
     ".output",

@@ -8,7 +8,9 @@
   yarn lint || { echo "🐶 Husky: ❌ Oxlint found issues. Aborting push."; exit 1; }
   echo "🐶 Husky: 🎉 Oxlint found no rule violations ..."
 
-  # 3. Format Check
+  # 3. Format generated files & check
+  echo "🐶 Husky: 🎨 Formatting generated files ..."
+  yarn format typed-router.d.ts
   echo "🐶 Husky: 🎨 Checking code formatting ..."
   yarn format:check || { echo "🐶 Husky: ❌ Formatting issues found. Run 'yarn format' to fix. Aborting push."; exit 1; }
   echo "🐶 Husky: 🎉 Code formatting is correct ..."
