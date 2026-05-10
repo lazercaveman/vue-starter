@@ -9,12 +9,15 @@ nuxt.d.ts
 /dist
 /storybook-static
 /node_modules
+.yarn/cache
+.yarn/install-state.gz
 
 # Logs
 logs
 *.log
 npm-debug.log*
-pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 lerna-debug.log*
 
 # OS
