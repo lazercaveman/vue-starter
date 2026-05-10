@@ -1,23 +1,23 @@
-  # 1. Force Prettier Structure
+  # 1. Type Check
   echo "🐶 Husky: 🌊 Enforcing TypeScript Types Check ..."
-  pnpm type-check || { echo "🐶 Husky: ❌ Enforcing Types Check. Aborting push."; exit 1; }
+  yarn type-check || { echo "🐶 Husky: ❌ Enforcing Types Check. Aborting push."; exit 1; }
   echo "🐶 Husky: 🎉 TypeScript found no rule violations ..."
 
   # 2. Linting
-  echo "🐶 Husky: 👮‍♂️ Executing EsLint ..."
-  pnpm lint:eslint || { echo "🐶 Husky: ❌ ESLint found issues. Aborting push."; exit 1; }
-  echo "🐶 Husky: 🎉 Linter found no rule violations ..."
-
-  # 3. Linting
   echo "🐶 Husky: 👮‍♂️ Executing Oxlint ..."
-  pnpm lint:oxlint || { echo "🐶 Husky: ❌ Oxlint found issues. Aborting push."; exit 1; }
-  echo "🐶 Husky: 🎉 Oxlinter found no rule violations ..."
+  yarn lint || { echo "🐶 Husky: ❌ Oxlint found issues. Aborting push."; exit 1; }
+  echo "🐶 Husky: 🎉 Oxlint found no rule violations ..."
+
+  # 3. Format Check
+  echo "🐶 Husky: 🎨 Checking code formatting ..."
+  yarn format:check || { echo "🐶 Husky: ❌ Formatting issues found. Run 'yarn format' to fix. Aborting push."; exit 1; }
+  echo "🐶 Husky: 🎉 Code formatting is correct ..."
 
   # 4. Unit-Testing
   echo "🐶 Husky: 🧪 Executing test:coverage ..."
-  pnpm test:coverage || { echo "🐶 Husky: ❌ Tests failed. Aborting push."; exit 1; }
+  yarn test:coverage || { echo "🐶 Husky: ❌ Tests failed. Aborting push."; exit 1; }
   echo "🐶 Husky: 🎉 All tests passed successfully!"
 
-  # 6. Success
+  # Success
   echo "🐶 Husky: 🎉 Pushing to git successfully - thank you for contributing!"
   exit 0

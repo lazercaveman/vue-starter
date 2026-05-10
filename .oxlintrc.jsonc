@@ -1,0 +1,119 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oxc-project/oxc/main/npm/oxlint/configuration_schema.json",
+  "env": {
+    "browser": true,
+  },
+  "ignorePatterns": ["node_modules", "coverage", "dist", ".output", ".nuxt", ".yarn"],
+  "plugins": ["typescript", "vue"],
+  "rules": {
+    // === Core Logic / Syntax ===
+    "eqeqeq": ["error", "always"],
+    "no-fallthrough": "error",
+    "no-empty": ["error", { "allowEmptyCatch": true }],
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "default-case": "error",
+    "no-debugger": "error",
+    "no-unneeded-ternary": "error",
+    "no-nested-ternary": "error",
+    "prefer-template": "error",
+    "no-useless-return": "error",
+    "no-constant-condition": [
+      "error",
+      {
+        "checkLoops": false,
+      },
+    ],
+    "max-depth": ["error", 5],
+    "max-params": ["error", 3],
+    "curly": ["error", "multi-line"],
+    "prefer-destructuring": [
+      "error",
+      {
+        "array": false,
+        "object": true,
+      },
+      {
+        "enforceForRenamedProperties": false,
+      },
+    ],
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "all",
+        "ignoreReadBeforeAssign": true,
+      },
+    ],
+    "no-warning-comments": [
+      "error",
+      {
+        "terms": ["FIX"],
+        "location": "start",
+      },
+    ],
+
+    // === TypeScript ===
+    "typescript/no-floating-promises": "error",
+    "typescript/array-type": [
+      "error",
+      {
+        "default": "array",
+        "readonly": "array",
+      },
+    ],
+    "typescript/no-explicit-any": [
+      "warn",
+      {
+        "fixToUnknown": true,
+      },
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "args": "all",
+        "argsIgnorePattern": "^(_|instance)",
+        "caughtErrors": "none",
+        "destructuredArrayIgnorePattern": "^_",
+        "varsIgnorePattern": "^(prop|pending|key)$",
+        "ignoreRestSiblings": true,
+      },
+    ],
+
+    // === Vue === // NOTE: currently some rules a re unavailable for Oxlint
+    "vue/no-export-in-script-setup": "error",
+    "vue/no-deprecated-destroyed-lifecycle": "error",
+    "vue/prefer-import-from-vue": "error",
+    "vue/define-props-declaration": ["error", "type-based"],
+    "vue/require-typed-ref": "warn",
+    // "vue/no-v-html": "off",
+    // "vue/attribute-hyphenation": [
+    //   "error",
+    //   "never",
+    //   {
+    //     "ignore": []
+    //   }
+    // ],
+    // "vue/component-name-in-template-casing": ["error", "PascalCase"],
+    // "vue/component-definition-name-casing": ["error", "PascalCase"],
+    // "vue/multi-word-component-names": [
+    //   "error",
+    //   {
+    //     "ignores": ["index", "demo", "default", "error", "[id]"]
+    //   }
+    // ]
+  },
+  "overrides": [
+    {
+      "files": ["**/_module-registry.ts", "**/_component-registry.ts"],
+      "rules": {
+        "sort-keys": [
+          "error",
+          "asc",
+          {
+            "caseSensitive": true,
+            "natural": true,
+          },
+        ],
+      },
+    },
+  ],
+}

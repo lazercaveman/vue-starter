@@ -1,5 +1,4 @@
-@import "tailwindcss";
-
+@import 'tailwindcss';
 
 @layer base {
   html {
@@ -11,14 +10,13 @@
 }
 
 @theme static {
-/* static definitions will always be added to the stylesheet */
+  /* static definitions will always be added to the stylesheet */
 }
 
 /* To completely disable the default theme and use only custom values, set the global theme variable namespace to initial: */
 /* --*: initial; */
 @theme {
 }
-
 
 @layer utilities {
 }
