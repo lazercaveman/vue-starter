@@ -1,5 +1,20 @@
 {
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
-  }
+  "editor.formatOnSave": true,
+  // Prevent vue extension formatting (since oxfmt does the job)
+  "vue.format.template.enabled": false,
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "tailwindCSS.lint.suggestCanonicalClasses": "ignore",
+  "cSpell.words": ["bradlc", "dbaeumer", "oxfmt", "Telehealth", "touchicon"],
+  "cSpell.ignoreWords": ["ROUTERLINK"]
 }
