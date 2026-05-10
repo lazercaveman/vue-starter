@@ -12,5 +12,5 @@ export default mergeConfig(
       include: ['src/components/**/*.test.ts', 'src/tests/**/*.test.ts'],
     },
     assetsInclude: ['**/*.mdx'],
-  })
+  }),
 );

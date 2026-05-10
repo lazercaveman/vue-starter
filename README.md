@@ -3,9 +3,11 @@
 [![MIT License](https://img.shields.io/github/license/lazercaveman/vue-starter)](LICENSE)
 
 # Vue 3 Starter
+
 A lightweight, ready-to-use template for Vue 3 with Vite and TypeScript. Fully configured with essential tools to kickstart your project.
 
 ## Table of Contents
+
 1. [Features](#features)
 2. [Quick Start](#quick-start)
 3. [Scripts](#scripts)
@@ -16,18 +18,20 @@ A lightweight, ready-to-use template for Vue 3 with Vite and TypeScript. Fully 
 ---
 
 ## Features
-* **Vue 3 & Vite**: Modern framework paired with a fast development server and build tool.
-* **TypeScript**: Static typing for safer, more maintainable code.
-* **Pinia & Vue Router**: State management and routing out of the box.
-* **Tailwind CSS**: Utility-first styling for rapid UI development.
-* **Vitest & Vue Test Utils**: Unit and UI testing configured.
-* **ESLint & OXLint**: Automated linting and code style enforcement.
-* **Husky**: Git hooks for pre-commit and pre-push checks.
-* **Storybook**: Isolated component development and documentation.
+
+- **Vue 3 & Vite**: Modern framework paired with a fast development server and build tool.
+- **TypeScript**: Static typing for safer, more maintainable code.
+- **Pinia & Vue Router**: State management and routing out of the box.
+- **Tailwind CSS**: Utility-first styling for rapid UI development.
+- **Vitest & Vue Test Utils**: Unit and UI testing configured.
+- **ESLint & OXLint**: Automated linting and code style enforcement.
+- **Husky**: Git hooks for pre-commit and pre-push checks.
+- **Storybook**: Isolated component development and documentation.
 
 ---
 
 ## Quick Start
+
 ```bash
 # Clone the repository
 git clone https://github.com/lazercaveman/vue-starter.git
@@ -46,6 +50,7 @@ pnpm dev
 ---
 
 ## Scripts
+
 | Command                | Description                              |
 | ---------------------- | ---------------------------------------- |
 | `pnpm dev`             | Start Vite development server            |
@@ -61,6 +66,7 @@ pnpm dev
 ---
 
 ## Dependencies
+
 | Package                | Purpose                                | Docs                                                                                     |
 | ---------------------- | -------------------------------------- | ---------------------------------------------------------------------------------------- |
 | **vue**                | Core framework                         | [https://vuejs.org](https://vuejs.org)                                                   |
@@ -78,10 +84,12 @@ pnpm dev
 ---
 
 ## Contributing
+
 Contributions are welcome! Fork the repository, create a feature branch, commit your changes, and open a pull request.
 
 ---
 
 ## License Notice
+
 This project is licensed under the [MIT License](LICENSE), by [Ali Soueidan](https://alisoueidan.com/) - see the [LICENSE](LICENSE) file for details.  
-*Please note that the software is provided without any warranty. The authors accept no liability for any security gaps or damage that may arise from the use of the software.*
+_Please note that the software is provided without any warranty. The authors accept no liability for any security gaps or damage that may arise from the use of the software._
