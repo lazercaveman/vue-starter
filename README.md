@@ -1,10 +1,10 @@
 ![Release Badge](https://img.shields.io/github/v/release/lazercaveman/vue-starter)
-[![Vue 3](https://img.shields.io/badge/Vue-3.5.17-42b883?logo=vue.js)](https://vuejs.org)
+[![Vue 3](https://img.shields.io/badge/Vue-3.5.33-42b883?logo=vue.js)](https://vuejs.org)
 [![MIT License](https://img.shields.io/github/license/lazercaveman/vue-starter)](LICENSE)
 
 # Vue 3 Starter
 
-A lightweight, ready-to-use template for Vue 3 with Vite and TypeScript. Fully configured with essential tools to kickstart your project.
+A lightweight, ready-to-use template for Vue 3 with Vite and TypeScript. Fully configured with essential tools to kickstart your project.
 
 ## Table of Contents
 
@@ -19,12 +19,12 @@ A lightweight, ready-to-use template for Vue 3 with Vite and TypeScript. Fully 
 
 ## Features
 
-- **Vue 3 & Vite**: Modern framework paired with a fast development server and build tool.
+- **Vue 3 & Vite**: Modern framework paired with a fast development server and build tool.
 - **TypeScript**: Static typing for safer, more maintainable code.
 - **Pinia & Vue Router**: State management and routing out of the box.
-- **Tailwind CSS**: Utility-first styling for rapid UI development.
+- **Tailwind CSS v4**: Utility-first styling for rapid UI development.
 - **Vitest & Vue Test Utils**: Unit and UI testing configured.
-- **ESLint & OXLint**: Automated linting and code style enforcement.
+- **Oxlint & Oxfmt**: Fast Rust-based linting and formatting.
 - **Husky**: Git hooks for pre-commit and pre-push checks.
 - **Storybook**: Isolated component development and documentation.
 
@@ -37,31 +37,35 @@ A lightweight, ready-to-use template for Vue 3 with Vite and TypeScript. Fully 
 git clone https://github.com/lazercaveman/vue-starter.git
 cd vue-starter
 
-# Ensure Node.js >= 18 and pnpm >= 4.x
-corepack enable
+# Ensure Node.js 24.14.0 via fnm
+fnm use
 
 # Install dependencies
-pnpm
+yarn
 
 # Start development server
-pnpm dev
+yarn dev
 ```
 
 ---
 
 ## Scripts
 
-| Command                | Description                              |
-| ---------------------- | ---------------------------------------- |
-| `pnpm dev`             | Start Vite development server            |
-| `pnpm build`           | Run type checks and build for production |
-| `pnpm preview`         | Preview the production build             |
-| `pnpm test:unit`       | Run unit tests with Vitest               |
-| `pnpm test:ui`         | Launch UI testing interface              |
-| `pnpm test:coverage`   | Generate test coverage report            |
-| `pnpm lint`            | Run ESLint and OXLint with auto-fix      |
-| `pnpm storybook`       | Start Storybook development server       |
-| `pnpm build-storybook` | Build Storybook static documentation     |
+| Command                  | Description                              |
+| ------------------------ | ---------------------------------------- |
+| `yarn dev`               | Start Vite development server            |
+| `yarn build`             | Run type checks and build for production |
+| `yarn preview`           | Preview the production build             |
+| `yarn test:unit`         | Run unit tests with Vitest               |
+| `yarn test:ui`           | Launch Vitest UI                         |
+| `yarn test:coverage`     | Generate test coverage report            |
+| `yarn lint`              | Run Oxlint                               |
+| `yarn lint:fix`          | Run Oxlint with auto-fix                 |
+| `yarn format`            | Format code with Oxfmt                   |
+| `yarn format:check`      | Check formatting without writing changes |
+| `yarn type-check`        | Run vue-tsc type checking                |
+| `yarn storybook`         | Start Storybook development server       |
+| `yarn build-storybook`   | Build Storybook static documentation     |
 
 ---
 
@@ -74,8 +78,9 @@ pnpm dev
 | **pinia**              | State management                       | [https://pinia.vuejs.org](https://pinia.vuejs.org)                                       |
 | **vue-router**         | Application routing                    | [https://router.vuejs.org](https://router.vuejs.org)                                     |
 | **typescript**         | Static type checking                   | [https://typescriptlang.org](https://typescriptlang.org)                                 |
-| **tailwindcss**        | Utility-first CSS                      | [https://tailwindcss.com](https://tailwindcss.com)                                       |
-| **eslint & plugins**   | Linting and code style                 | [https://eslint.org](https://eslint.org)                                                 |
+| **tailwindcss**        | Utility-first CSS (v4)                 | [https://tailwindcss.com](https://tailwindcss.com)                                       |
+| **oxlint**             | Fast Rust-based linter                 | [https://oxc.rs/docs/guide/usage/linter](https://oxc.rs/docs/guide/usage/linter)         |
+| **oxfmt**              | Fast Rust-based formatter              | [https://oxc.rs/docs/guide/usage/formatter](https://oxc.rs/docs/guide/usage/formatter)   |
 | **vitest & plugins**   | Testing framework                      | [https://vitest.dev](https://vitest.dev)                                                 |
 | **@vue/test-utils**    | Vue component testing utilities        | [https://vue-test-utils.vuejs.org](https://vue-test-utils.vuejs.org)                     |
 | **husky**              | Git hooks                              | [https://typicode.github.io/husky/](https://typicode.github.io/husky/)                   |
