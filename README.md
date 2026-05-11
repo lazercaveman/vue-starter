@@ -88,12 +88,6 @@ yarn dev
 
 ---
 
-## Contributing
-
-Contributions are welcome! Fork the repository, create a feature branch, commit your changes, and open a pull request.
-
----
-
 ## License Notice
 
 This project is licensed under the [MIT License](LICENSE), by [Ali Soueidan](https://alisoueidan.com/) - see the [LICENSE](LICENSE) file for details.  
