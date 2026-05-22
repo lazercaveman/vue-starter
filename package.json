@@ -43,7 +43,7 @@
     "npm-run-all2": "^8.0.4",
     "oxfmt": "^0.47.0",
     "oxlint": "~1.62.0",
-    "storybook": "^10.3.6",
+    "storybook": "^10.4.0",
     "tailwindcss": "^4.2.4",
     "typescript": "~6.0.3",
     "unplugin-vue-router": "^0.19.2",
