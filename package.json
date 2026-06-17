@@ -31,7 +31,7 @@
     "@storybook/vue3-vite": "^10.3.6",
     "@tailwindcss/vite": "^4.2.4",
     "@tsconfig/node22": "^22.0.5",
-    "@types/jsdom": "^28.0.1",
+    "@types/jsdom": "^28.0.3",
     "@types/node": "^25.6.0",
     "@vitejs/plugin-vue": "^6.0.6",
     "@vitest/coverage-v8": "4.1.5",
