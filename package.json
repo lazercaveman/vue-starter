@@ -23,7 +23,7 @@
   "dependencies": {
     "pinia": "^3.0.4",
     "vue": "^3.5.33",
-    "vue-router": "5.0.6"
+    "vue-router": "5.2.0"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^10.3.6",
