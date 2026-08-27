@@ -4726,10 +4726,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:4.2.4, tailwindcss@npm:^4.2.4":
+"tailwindcss@npm:4.2.4":
   version: 4.2.4
   resolution: "tailwindcss@npm:4.2.4"
   checksum: 10/54734efe725d1717fb9064940d705852448fb91a7fc78399a2d4263dc0fd4c260017baa13362f13f604bbfd4a0a882b83253c0cd6f14fe80454fd916966e8d72
+  languageName: node
+  linkType: hard
+
+"tailwindcss@npm:^4.3.3":
+  version: 4.3.3
+  resolution: "tailwindcss@npm:4.3.3"
+  checksum: 10/f6e4972b37f1c411ef0bd89260aabd10d4d953b50c56979f327f5fc8a27bcaf5c62fd4bf55d196d7667085ad276842e1e15b1de1bbfd532da46c2e9073dc8e0d
   languageName: node
   linkType: hard
 
@@ -5391,7 +5398,7 @@ __metadata:
     oxlint: "npm:~1.62.0"
     pinia: "npm:^3.0.4"
     storybook: "npm:^10.3.6"
-    tailwindcss: "npm:^4.2.4"
+    tailwindcss: "npm:^4.3.3"
     typescript: "npm:~6.0.3"
     unplugin-vue-router: "npm:^0.19.2"
     vite: "npm:^8.0.10"
